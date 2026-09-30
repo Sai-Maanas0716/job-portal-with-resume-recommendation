@@ -316,25 +316,25 @@ elif navigation == "🔍 DBMS Lab Evaluation & SQL Runner":
 # ==============================================================================
 # 5. REVIEW 1 FEEDBACK & NEXT STEPS
 # ==============================================================================
-elif navigation == "📝 Review 1 Feedback & Next Steps":
-    st.title("📝 Review 1 Notes & Professor Feedback Tracker")
-    st.markdown("""
-    This section is designed to capture feedback and suggestions from the professor during **Review 1 tomorrow**.
+# elif navigation == "📝 Review 1 Feedback & Next Steps":
+#     st.title("📝 Review 1 Notes & Professor Feedback Tracker")
+#     st.markdown("""
+#     This section is designed to capture feedback and suggestions from the professor during **Review 1 tomorrow**.
     
-    ### Scope of Review 1 (What We Are Presenting):
-    1. **Project Architecture:** Hybrid combination of Oracle SQL/PL-SQL and Sentence-Transformers vector matching.
-    2. **Database Design:** 5 Entities (Users, Candidate Profiles, Job Postings, Skills, Applications) in strict 3NF.
-    3. **PL/SQL Features:** 
-       - `fn_skill_match_pct` (Calculates keyword overlap percentage)
-       - `sp_apply_job` (Calculates 60% semantic + 40% skill composite score)
-       - `sp_get_eligible_candidates` (Pre-filtering with REF CURSOR)
-       - `sp_shortlist_applications` (Batch update with explicit cursor)
-       - 3 Automated Triggers (`trg_app_before_insert`, `trg_job_status_audit`, `trg_profile_touch`)
-    4. **Working Demo Prototype:** Real-time pre-filtering, similarity scoring, application persistence, and SQL inspection.
+#     ### Scope of Review 1 (What We Are Presenting):
+#     1. **Project Architecture:** Hybrid combination of Oracle SQL/PL-SQL and Sentence-Transformers vector matching.
+#     2. **Database Design:** 5 Entities (Users, Candidate Profiles, Job Postings, Skills, Applications) in strict 3NF.
+#     3. **PL/SQL Features:** 
+#        - `fn_skill_match_pct` (Calculates keyword overlap percentage)
+#        - `sp_apply_job` (Calculates 60% semantic + 40% skill composite score)
+#        - `sp_get_eligible_candidates` (Pre-filtering with REF CURSOR)
+#        - `sp_shortlist_applications` (Batch update with explicit cursor)
+#        - 3 Automated Triggers (`trg_app_before_insert`, `trg_job_status_audit`, `trg_profile_touch`)
+#     4. **Working Demo Prototype:** Real-time pre-filtering, similarity scoring, application persistence, and SQL inspection.
 
-    ### Questions & Potential Additions for Review 2:
-    - *Does the instructor want custom PL/SQL packages?*
-    - *Should we add MongoDB (NoSQL) for raw resume JSON storage (leveraging Lab 8–11)?*
-    - *Are additional constraints or complex triggers needed?*
-    """)
-    st.info("All notes and adjustments discussed tomorrow can be directly appended into `PROJECT_CONTEXT.md`.")
+#     ### Questions & Potential Additions for Review 2:
+#     - *Does the instructor want custom PL/SQL packages?*
+#     - *Should we add MongoDB (NoSQL) for raw resume JSON storage (leveraging Lab 8–11)?*
+#     - *Are additional constraints or complex triggers needed?*
+#     """)
+#     st.info("All notes and adjustments discussed tomorrow can be directly appended into `PROJECT_CONTEXT.md`.")
