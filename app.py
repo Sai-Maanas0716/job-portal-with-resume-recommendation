@@ -50,7 +50,6 @@ navigation = st.sidebar.radio(
         "👔 Recruiter Portal (Filter & Rank)",
         "👤 Candidate Portal (Apply & Match)",
         "🔍 DBMS Lab Evaluation & SQL Runner",
-        "📝 Review 1 Feedback & Next Steps",
     ],
 )
 
